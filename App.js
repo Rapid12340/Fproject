@@ -21,7 +21,7 @@ const App: () => Node = () => {
   return( 
   <NavigationContainer>
     <Stack.Navigator initialRouteName="Login">
-    <Stack.Screen name = "Login" component={Login}  options={{title: 'Crazy'}}/>
+    <Stack.Screen name = "Login" component={Login}  options={{title: 'Login'}}/>
     <Stack.Screen name = "AMenu" component={AMenu}/>
     <Stack.Screen name = "Menu" component={Menu}/>
     <Stack.Screen name = "Turn" component={Turn}/>
